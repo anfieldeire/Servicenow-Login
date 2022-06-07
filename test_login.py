@@ -11,7 +11,6 @@ from base_test import BaseTest
 
 class TestLogin(BaseTest):
     def test_authentication(self):
-        print("test login called")
 
         driver.get('https://url.service-now.com/')
 
