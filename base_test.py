@@ -4,7 +4,7 @@ from datetime import date
 @pytest.mark.usefixtures("webdriver")
 class BaseTest:
 
-    base_url = 'https://dev68493.service-now.com/'
+    base_url = 'https://url.service-now.com/'
     identifier = "AUTOMATED TESTING"
     module = "INCIDENT"
     action = "CREATE"
