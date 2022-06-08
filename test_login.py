@@ -12,6 +12,7 @@ from base_test import BaseTest
 class TestLogin(BaseTest):
     def test_authentication(self):
 
+        driver = self.driver
         driver.get('https://url.service-now.com/')
 
         time.sleep(10)
