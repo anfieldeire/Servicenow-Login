@@ -1,4 +1,6 @@
-## Test Login to Servicenow Using Pytest and Selenium
+## Test for the Servicenow App Using Pytest and Selenium
+* Test1: Login to the app
+* Test2: Create an incident record
 * Browser: Firefox
 * Python Version Created/Tested in: 3.6
 * Use base_test class so that the webdriver is inherited by the other classes
