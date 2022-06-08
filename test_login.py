@@ -13,7 +13,7 @@ class TestLogin(BaseTest):
     def test_authentication(self):
 
         driver = self.driver
-        driver.get('https://url.service-now.com/')
+        driver.get(self.base_url)
 
         time.sleep(10)
 
